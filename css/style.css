@@ -1,0 +1,424 @@
+/* PURAS FONTS*/
+.rock-3d-regular {
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dokdo-regular {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexend-uniquifier {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lacquer-regular {
+  font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-barcode-39-extended-text-regular {
+  font-family: "Libre Barcode 39 Extended Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-barcode-39-text-regular {
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.codystar-light {
+  font-family: "Codystar", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.codystar-regular {
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bitcount-prop-single-ink-uniquifier {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ballet-uniquifier {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*---------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+
+  --font-family: "forma-djr-display", sans-serif;
+  --font-title: "Archivo Black", sans-serif;
+  --accent-color: #57ff4b;
+;
+  --background-color: rgb(0, 0, 255);
+  --text-color: #57ff4b;
+;--text-decoration: none;
+
+
+  --boder-box: 2em;
+  --text-decoration-style: none;
+}
+
+html {
+
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+body {
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 1.0em;
+
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.title {
+
+  font-size: 5em;
+  font-weight: normal;
+  color: #57ff4b;
+  text-align: center;
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  padding: 0;
+
+
+  --x: 50%;
+  --y: 50%;
+  
+  text-shadow:
+    0 0 10px rgba(131, 228, 255, 0.99),
+    0 0 30px rgba(81, 0, 255, 0.6),
+    0 0 60px rgba(255,0,200,0.4);
+  
+
+}
+
+
+
+/*---------------------------------------*/
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* pone elementos uno debajo del otro */
+  align-items: center;
+  /* centra horizontalmente */
+  text-align: center;
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-size: 1.7em;
+  /*color: #ff54b5;*/
+  padding: 1em;
+   font-weight: 4em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0.7em;
+  padding-top: 2em;
+  padding-left: 0.3em;
+  display: flex;
+  justify-content: center;
+  /* CENTRA el menú */
+  gap: 3.5em;
+}
+
+nav li {
+  position: relative;
+}
+
+/* icono para HOME */
+nav li:first-child a::before {
+  content: "✮⋆˙";
+}
+
+/* icono para CONTACTO */
+nav li:nth-child(2) a::before {
+  content: "☘︎ ݁˖";
+}
+
+/* fa-envelope */
+/* icono para otro */
+nav li:nth-child(3) a::before {
+  content: "⚘⚘";
+}
+
+/* fa-envelope */
+nav li:nth-child(3) a::after {
+  content: "⚘⚘";
+}
+
+
+.nav-link {
+  color: #ce5cff;
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* ✨ glow */
+.nav-link:hover {
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #ff54b5,
+    0 0 10px #ff54b5,
+    0 0 20px #ff00e0,
+    0 0 40px #ff00e0;
+
+  transform: scale(1.2);
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/*---------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: var(--font-title);
+  text-transform: none;
+
+}
+
+/*---------------------------------------*/
+
+h1 {
+
+  font-size: 1.5em;
+
+}
+
+h2 {
+
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+h3 {
+
+  font-size: 1em;
+  margin-left: 1.5em;
+  font-family: "Coral Pixels", serif;
+  color: #d0ff00;
+}
+
+h5{
+  font-size: 1.5em;
+  font-family: "Coral Pixels", serif;
+  color: #57ff4b;
+    font-weight: 400;
+
+  list-style: none;
+  margin: 0.7em;
+  padding-top: 2em;
+  padding-left: 0.3em;
+  display: flex;
+  justify-content: right;
+  /* CENTRA */
+  gap: 3.5em;
+
+}
+
+h6 {
+
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  margin: 1.5em;
+  font-size: 1.2em;
+  text-align: right;
+  color: #ff0000;
+
+  font-weight: 200;
+
+}
+
+
+/*---------------------------------------*/
+
+
+/* BARRAS QUE SE MUEVEN----------------- */
+
+.marquee {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+
+}
+
+.marquee-top {
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+
+}
+
+.marquee-track {
+    position: fixed;
+bottom: 0;
+  color: #00f7ff;
+  display: flex;
+  width: max-content;
+  gap: 0;
+  
+  animation: scroll 18s linear infinite;
+}
+
+.marquee-group {
+  display: flex;
+}
+
+.marquee-group span {
+  font-size: 2rem;
+  white-space: nowrap;
+  padding: 0;
+
+  color: #ff70c8;
+
+  text-shadow:
+    0 0 5px #ff54b5,
+    0 0 10px #ff54b5,
+    0 0 20px#ff0d96,
+    0 0 40px #f5caf5;
+}
+
+.marquee-groupp span {
+  font-size: 2rem;
+  white-space: nowrap;
+  padding: 0;
+
+  color: #00f7ff;
+
+  text-shadow:
+    0 0 5px #54c3ff,
+    0 0 10px #5487ff,
+    0 0 20px#0dcbff,
+    0 0 40px #6abcff;
+}
+
+
+.marquee-top {
+
+  color: #00f7ff;
+
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+  gap: 0;
+  display: flex;
+  width: max-content;
+  animation: scroll 18s linear infinite;
+
+}
+
+@keyframes scroll {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+
+}
+
+
+
+/*---------------------------------------*/
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  /* que cubra toda la pantalla */
+
+  z-index: -1;
+  /* detrás de todo */
+}
+
+/*---------------------------------------*/
