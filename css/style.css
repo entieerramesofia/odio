@@ -191,6 +191,8 @@ nav ul {
   justify-content: center;
   /* CENTRA el menú */
   gap: 3.5em;
+  cursor: pointer;
+
 }
 
 
