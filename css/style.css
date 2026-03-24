@@ -172,6 +172,27 @@ header {
    font-weight: 4em;
 }
 
+
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-size: 1.7em;
+  padding: 1em;
+
+  /* ✨ glow */
+  box-shadow:
+    0 0 10px #57ff4b,
+    0 0 20px #57ff4b,
+    0 0 40px rgba(87, 255, 75, 0.6);
+
+  border-radius: 10px;
+}
+
 nav ul {
   list-style: none;
   margin: 0.7em;
