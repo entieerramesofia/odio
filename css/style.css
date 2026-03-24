@@ -174,13 +174,9 @@ header {
 
 }
 
-a,
-a:visited,
-a:hover,
-a:active {
-  text-decoration-line: none;
+a {
+  text-decoration: none;
 }
-
 /*--------------------------------------- NUEVO NAV */
 
 nav ul {
@@ -192,7 +188,6 @@ nav ul {
   justify-content: center;
   /* CENTRA el menú */
   gap: 3.5em;
-  text-decoration-line: none;
   color: #bdfc00;
 }
 
@@ -215,18 +210,21 @@ nav li {
     0 0 10px #ff54b5,
     0 0 20px #ff00e0;
 }
+
+
 .nav-link:hover {
-  transform: scale(1.2); /* 👈 valor correcto */
+  transform: scale(1.9);
 
   color: #fbff00;
 
   text-shadow:
-    0 0 5px #fbff00,
-    0 0 15px #fbff00,
-    0 0 30px #ff00e0,
-    0 0 60px #ff00e0;
-}
+    0 0 10px #fbff00,
+    0 0 25px #fbff00,
+    0 0 50px #ff00e0;
 
+  background: rgba(255,255,255,0.1); 
+  border-radius: 10px;
+}
 
 /*---------------------------------------*/
 /* icono para HOME */
