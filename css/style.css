@@ -319,9 +319,11 @@ h2 {
   color: white;
 
   box-shadow:
-    0 0 10px #ff70c8,
-    0 0 30px #ff70c8;
+    0 0 10px#ffc0e4,
+    0 0 30px #ffa5d8;
 }
+
+
 
 h3 {
 
@@ -364,9 +366,13 @@ background: radial-gradient(circle, #ffacdf
   padding: 1em;
   border-radius: 1em;
 
+
     box-shadow:
+    0 0 10px #ff70c8,
+    0 0 30px #ff70c8;
+   /* box-shadow:
     0 0 10px #57ff4b,
-    0 0 30px #57ff4b;
+    0 0 30px #57ff4b;*/
 }
 
 
