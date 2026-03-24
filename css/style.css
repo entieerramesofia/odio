@@ -239,6 +239,7 @@ nav a {
 }
 
 nav a:hover {
+  
   color: #fbff00;
   transform: scale(1.3);
 }
