@@ -138,6 +138,7 @@ body {
   text-align: center;
   font-family: "Bitcount Prop Single Ink", system-ui;
   padding: 0;
+  transition: all 0.9s ease;      /* animacion suave AYUDA */
 
 
   --x: 50%;
