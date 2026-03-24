@@ -102,7 +102,7 @@
   --font-family: "forma-djr-display", sans-serif;
   --font-title: "Archivo Black", sans-serif;
   --accent-color: #57ff4b;
-;
+  ;
   --background-color: rgb(0, 0, 255);
   --text-color: #57ff4b;
 
@@ -138,17 +138,18 @@ body {
   text-align: center;
   font-family: "Bitcount Prop Single Ink", system-ui;
   padding: 0;
-  transition: all 0.9s ease;      /* animacion suave AYUDA */
+  transition: all 0.9s ease;
+  /* animacion suave AYUDA */
 
 
   --x: 50%;
   --y: 50%;
-  
+
   text-shadow:
     0 0 10px rgba(131, 228, 255, 0.99),
     0 0 30px rgba(81, 0, 255, 0.6),
-    0 0 60px rgba(255,0,200,0.4);
-  
+    0 0 60px rgba(255, 0, 200, 0.4);
+
 
 }
 
@@ -168,7 +169,7 @@ header {
   font-size: 1.7em;
   /*color: #ff54b5;*/
   padding: 1em;
-   font-weight: 4em;
+  font-weight: 4em;
 
 
 }
@@ -179,6 +180,7 @@ a:hover,
 a:active {
   text-decoration-line: none;
 }
+
 /*--------------------------------------- NUEVO NAV */
 
 
@@ -191,33 +193,36 @@ nav ul {
   justify-content: center;
   /* CENTRA el menú */
   gap: 3.5em;
-  cursor: pointer;
 
 }
 
 
-
 .nav-link {
-     color: #ce5cff;
-        text-decoration: none;
+  color: #ce5cff;
+  text-decoration-line: none;
 
-      background: none;       /* sin fondo */
-      border: none;           /* sin borde */
-      padding: 0;             /* sin padding extra */
-      cursor: pointer;
-      font-size: 1.5rem;      /* tamano */
+  background: none;
+  /* sin fondo */
+  border: none;
+  /* sin borde */
+  padding: 0;
+  /* sin padding extra */
+  cursor: pointer;
+  font-size: 1.5rem;
+  /* tamano */
 
-        text-shadow:
+  text-shadow:
     0 0 5px #ff54b5,
     0 0 10px #ff54b5,
     0 0 20px #ff00e0;
 
-    transition: all 0.8s ease, text-shadow 0.3s ease;
-    
-    }
+  transition: all 0.8s ease, text-shadow 0.3s ease;
+
+}
+
 .nav-link:hover {
 
- transform: scale(9);
+  transform: scale(9);
 
   color: #fbff00;
 
@@ -225,7 +230,7 @@ nav ul {
     0 0 5px #fbff00,
     0 0 15px #fbff00,
     0 0 30px #ff00e0;
-      transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 
 }
 
@@ -296,11 +301,11 @@ h3 {
   color: #d0ff00;
 }
 
-h5{
+h5 {
   font-size: 1.5em;
   font-family: "Coral Pixels", serif;
   color: #57ff4b;
-    font-weight: 400;
+  font-weight: 400;
 
   list-style: none;
   margin: 0.7em;
@@ -351,13 +356,13 @@ h6 {
 }
 
 .marquee-track {
-    position: fixed;
-bottom: 0;
+  position: fixed;
+  bottom: 0;
   color: #00f7ff;
   display: flex;
   width: max-content;
   gap: 0;
-  
+
   animation: scroll 18s linear infinite;
 }
 
