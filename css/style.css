@@ -186,44 +186,38 @@ nav ul {
   gap: 3.5em;
 }
 
-nav li {
-  position: relative;
-
-  list-style: none;
-  padding: 0.5em 1.2em;
-  border-radius: 12px;
-
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-nav li:hover {
-  transform: scale(9);
-
-}
 
 
 .nav-link {
-  color: #ce5cff;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+     color: #ce5cff;
+        text-decoration: none;
 
-  text-shadow:
+      background: none;       /* sin fondo */
+      border: none;           /* sin borde */
+      padding: 0;             /* sin padding extra */
+      cursor: pointer;
+      font-size: 1.5rem;      /* tamano */
+
+        text-shadow:
     0 0 5px #ff54b5,
     0 0 10px #ff54b5,
     0 0 20px #ff00e0;
-    
-}
-.nav-link {
-  display: block; /* 🔥 esto es lo que te faltaba */
-  padding: 0.5em 1em;
-}
 
+    transition: all 0.8s ease, text-shadow 0.3s ease;
+    
+    }
 .nav-link:hover {
+
+ transform: scale(9);
+
   color: #fbff00;
 
   text-shadow:
     0 0 5px #fbff00,
     0 0 15px #fbff00,
     0 0 30px #ff00e0;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+
 }
 
 
@@ -253,7 +247,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
+  text-decoration-line: none;
 }
 
 /*---------------------------------------*/
