@@ -319,10 +319,9 @@ h2 {
   color: white;
 
   box-shadow:
-    0 0 10px#ffc0e4,
-    0 0 30px #ffa5d8;
+    0 0 10px #ff70c8,
+    0 0 30px #ff70c8;
 }
-
 
 
 h3 {
@@ -360,7 +359,7 @@ h6 {
   font-weight: 200;
 
 
-  background: #ff70c8;
+  background:#4ed4f9;
 background: radial-gradient(circle, #ffacdf
  0%,    #4ed4f9 90%);
   padding: 1em;
@@ -368,11 +367,9 @@ background: radial-gradient(circle, #ffacdf
 
 
     box-shadow:
-    0 0 10px #ff70c8,
-    0 0 30px #ff70c8;
-   /* box-shadow:
-    0 0 10px #57ff4b,
-    0 0 30px #57ff4b;*/
+    0 0 10px  #4ed4f9,
+    0 0 30px #ffdaef;
+
 }
 
 
