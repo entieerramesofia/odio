@@ -170,28 +170,11 @@ header {
   /*color: #ff54b5;*/
   padding: 1em;
    font-weight: 4em;
+
+
 }
 
 
-
-header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  font-family: "Libre Barcode 39 Text", system-ui;
-  font-size: 1.7em;
-  padding: 1em;
-
-  /* ✨ glow */
-  box-shadow:
-    0 0 10px #57ff4b,
-    0 0 20px #57ff4b,
-    0 0 40px rgba(87, 255, 75, 0.6);
-
-  border-radius: 10px;
-}
 
 nav ul {
   list-style: none;
@@ -229,6 +212,44 @@ nav li:nth-child(3) a::after {
   content: "⚘⚘";
 }
 
+
+/*--------------------------------------- NUEVO NAV LINK */
+
+
+.nav-link {
+  color: #ce5cff;
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+
+  /* ✨ glow base */
+  text-shadow:
+    0 0 5px #ff54b5,
+    0 0 10px #ff54b5,
+    0 0 20px #ff00e0;
+}
+
+
+
+.nav-link:hover {
+  color: #fbff00;
+    display: inline-block;
+  position: relative;
+  transition: all 0.5s ease;
+
+  text-shadow:
+    0 0 5px #ff54b5,
+    0 0 15px #ff54b5,
+    0 0 30px #ff00e0,
+    0 0 60px #ff00e0;
+
+  transform: scale(1.7);
+}
+
+
+
+
+/*--------------------------------------- VIEJO NAV LINK */
 
 .nav-link {
   color: #ce5cff;
