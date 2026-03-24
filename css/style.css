@@ -172,6 +172,12 @@ header {
 
 }
 
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration-line: none;
+}
 /*--------------------------------------- NUEVO NAV */
 
 
@@ -221,6 +227,7 @@ nav ul {
 }
 
 
+
 /*---------------------------------------*/
 /* icono para HOME */
 nav li:first-child a::before {
@@ -243,12 +250,7 @@ nav li:nth-child(3) a::after {
   content: "⚘⚘";
 }
 
-a,
-a:visited,
-a:hover,
-a:active {
-  text-decoration-line: none;
-}
+
 
 /*---------------------------------------*/
 
