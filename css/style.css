@@ -137,6 +137,9 @@ body {
 
 }
 
+/*---------------------------------------*/
+
+
 .title {
 
   font-size: 5em;
@@ -168,7 +171,61 @@ body {
 
 
 
+.title {
+  font-size: 5em;
+  color: #57ff4b;
+  text-align: center;
+  font-family: "Bitcount Prop Single Ink", system-ui;
 
+  position: relative;
+
+  text-shadow:
+    0 0 10px #00f7ff,
+    0 0 30px #ff00e0;
+
+  animation: glitch 1s infinite;
+}
+.title::before,
+.title::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title::before {
+  color: #ff00e0;
+  z-index: -1;
+  animation: glitchTop 1s infinite;
+}
+
+.title::after {
+  color: #00f7ff;
+  z-index: -2;
+  animation: glitchBottom 1s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes glitchTop {
+  0% { clip-path: inset(0 0 80% 0); transform: translate(-2px, -2px); }
+  50% { clip-path: inset(0 0 60% 0); transform: translate(2px, 2px); }
+  100% { clip-path: inset(0 0 80% 0); transform: translate(-2px, -2px); }
+}
+
+@keyframes glitchBottom {
+  0% { clip-path: inset(80% 0 0 0); transform: translate(2px, 2px); }
+  50% { clip-path: inset(60% 0 0 0); transform: translate(-2px, -2px); }
+  100% { clip-path: inset(80% 0 0 0); transform: translate(2px, 2px); }
+}
 
 
 /*---------------------------------------*/
@@ -313,12 +370,12 @@ h2 {
   background: rgba(255, 112, 200, 0.2);
   backdrop-filter: blur(10px);
 
-  padding: 0.3em 0.7  em;
-  border-radius: 1em;
+  padding: 0.3em 0.8em;
+  border-radius: 3em;
 
   color: white;
 
-  box-shadow:
+  box-shadow: 
     0 0 10px #ff70c8,
     0 0 30px #ff70c8;
 }
@@ -358,12 +415,16 @@ h6 {
   color: #ff0000;
   font-weight: 200;
 
-
-  background:#4ed4f9;
+/*
+  background:#4ed4f9 0.2;
 background: radial-gradient(circle, #ffacdf
  0%,    #4ed4f9 90%);
+*/
+
+   background: rgba(255, 255, 255, 0.228);
+  backdrop-filter: blur(2em);
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 5em;
 
 
     box-shadow:
