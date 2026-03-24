@@ -1,4 +1,11 @@
 /* PURAS FONTS*/
+
+.estonia-regular {
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .rock-3d-regular {
   font-family: "Rock 3D", system-ui;
   font-weight: 400;
@@ -147,11 +154,20 @@ body {
 
   text-shadow:
     0 0 10px rgba(131, 228, 255, 0.99),
-    0 0 30px rgba(81, 0, 255, 0.6),
-    0 0 60px rgba(255, 0, 200, 0.4);
-
+    0 0 50px rgb(81, 0, 255),
+    0 0 90px rgb(255, 142, 231);
 
 }
+  .title:hover {
+        font-size: 5.2rem; 
+        text-align: center;
+
+        text-shadow: 0 0 15px rgb(255, 255, 237),
+                     0 0 30px rgb(0, 4, 255); /* brillo */
+    }
+
+
+
 
 
 
@@ -180,47 +196,53 @@ a {
 
 nav ul {
   list-style: none;
-  margin: 0.7em;
+  margin: 0.5em;
   padding-top: 2em;
-  padding-left: 0.3em;
+  padding-left: 0.2em;
   display: flex;
   justify-content: center;
   /* CENTRA el menú */
   gap: 3.5em;
-  color: #bdfc00;
+
 }
 
 nav li {
   list-style: none;
 }
 
+
+
 .nav-link {
   display: inline-block;
 
-  color: #ce5cff;
 
-  transition: 
-    transform 0.3s ease,
-    color 0.3s ease,
-    text-shadow 0.3s ease;
 
+  color: white;
+
+  transition: all 0.3s ease;
+/*
   text-shadow:
     0 0 5px #ff54b5,
-    0 0 10px #ff54b5,
-    0 0 20px #ff00e0;
+    0 0 10px #ff54b5;*/
+
+     text-shadow:
+    0 0 5px #ffc0e4,
+    0 0 10px #ffa5d8;
 }
 
-
 .nav-link:hover {
-  transform: scale(1.9) 0.3s ease;
+  transform: scale(1.2);
 
-  color: #fbff00;
+  color: #57ff4b;
+
+
+  --x: 50%;
+  --y: 50%;
 
   text-shadow:
-    0 0 10px #fbff00,
-    0 0 25px #fbff00,
-    0 0 50px #ff00e0;
-
+    0 0 10px rgba(131, 228, 255, 0.99),
+    0 0 50px rgb(81, 0, 255),
+    0 0 90px rgb(255, 142, 231);
 }
 
 /*---------------------------------------*/
@@ -265,27 +287,48 @@ h6 {
 
 h1 {
 
-  font-size: 1.5em;
+  font-size: 2em;
 
 }
 
 h2 {
 
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-align: center;
-  font-family: "Ballet", cursive;
+  font-family: "Bitcount Prop Single Ink", system-ui;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 200;
   font-style: normal;
+
+  background: #ff70c8;
+  padding: 1em;
+  border-radius: 1em;
 }
 
+/*cajita */
+h2 {
+  width: fit-content;
+  margin: 0 auto;
+
+  background: rgba(255, 112, 200, 0.2);
+  backdrop-filter: blur(10px);
+
+  padding: 0.3em 1.0em;
+  border-radius: 1em;
+
+  color: white;
+
+  box-shadow:
+    0 0 10px #ff70c8,
+    0 0 30px #ff70c8;
+}
 
 h3 {
 
   font-size: 1em;
   margin-left: 1.5em;
   font-family: "Coral Pixels", serif;
-  color: #d0ff00;
+  color: #ff0000;
 }
 
 h5 {
@@ -312,10 +355,20 @@ h6 {
   font-size: 1.2em;
   text-align: right;
   color: #ff0000;
-
   font-weight: 200;
 
+
+  background: #ff70c8;
+background: radial-gradient(circle, #ffacdf
+ 0%,    #4ed4f9 90%);
+  padding: 1em;
+  border-radius: 1em;
+
+    box-shadow:
+    0 0 10px #57ff4b,
+    0 0 30px #57ff4b;
 }
+
 
 
 /*---------------------------------------*/
