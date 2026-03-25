@@ -238,9 +238,9 @@ header {
   /* centra horizontalmente */
   text-align: center;
   font-family: "Libre Barcode 39 Text", system-ui;
-  font-size: 1.7em;
+  font-size: 1.9em;
   /*color: #ff54b5;*/
-  padding: 1em;
+  padding: 0.8em;
   font-weight: 4em;
 
 
@@ -254,8 +254,8 @@ a {
 nav ul {
   list-style: none;
   margin: 0.5em;
-  padding-top: 2em;
-  padding-left: 0.2em;
+  padding-top: 2.4em;
+  padding-left: 0.1em;
   display: flex;
   justify-content: center;
   /* CENTRA el menú */
@@ -274,7 +274,7 @@ nav li {
 
 
 
-  color: white;
+  color:rgb(255, 255, 255, 50%);
 
   transition: all 0.3s ease;
 /*
@@ -283,8 +283,8 @@ nav li {
     0 0 10px #ff54b5;*/
 
      text-shadow:
-    0 0 5px #ffc0e4,
-    0 0 10px #ffa5d8;
+    0 0 10px #ffc0e4,
+    0 0 25px #ffa5d8;
 }
 
 .nav-link:hover {
@@ -411,6 +411,7 @@ h5 {
   /* CENTRA */
   gap: 3.5em;
 
+
 }
 
 
@@ -437,14 +438,54 @@ background: radial-gradient(circle, #ffacdf
 
 
     box-shadow:
-    0 0 10px  #ffffffc0,
-    0 0 30px #ffdbf0;
+    0 0 10px  #ffffff7e,
+    0 0 25px #ffdbf0;
 
 }
 
 
 
-/*---------------------------------------*/
+/*-------------- CONTACTOO  -------------------------*/
+
+.contacto p {
+  background: #ff70c8;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+
+  width: fit-content;
+  margin: 0.5em auto;
+
+  transition: all 0.3s ease;
+}
+
+.contacto p:hover {
+  transform: scale(1.1);
+
+  background: #fbff00;
+
+  box-shadow:
+    0 0 10px #fbff00,
+    0 0 20px #ff00e0;
+}
+
+.contacto a {
+  display: inline-block;
+
+  background: #ff70c8;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+
+  color: white;
+
+  transition: all 0.3s ease;
+}
+
+.contacto a:hover {
+  transform: scale(1.1);
+  background: #fbff00;
+}
+
+
 
 
 /* BARRAS QUE SE MUEVEN----------------- */
@@ -559,3 +600,4 @@ pointer-events: none;
 }
 
 /*---------------------------------------*/
+
