@@ -358,7 +358,7 @@ h2 {
   font-style: normal;
 
   background: #ff70c8;
-  padding: 1em;
+  padding: 2.5em;
   border-radius: 1em;
 }
 
@@ -387,6 +387,8 @@ h3 {
   margin-left: 1.5em;
   font-family: "Coral Pixels", serif;
   color: #ff0000;
+padding: 1em;
+
 }
 
 
