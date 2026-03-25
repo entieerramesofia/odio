@@ -389,6 +389,13 @@ h3 {
   color: #ff0000;
 }
 
+
+h4 {
+
+  
+
+}
+
 h5 {
   font-size: 1.5em;
   font-family: "Coral Pixels", serif;
@@ -423,15 +430,15 @@ background: radial-gradient(circle, #ffacdf
  0%,    #4ed4f9 90%);
 */
 
-   background: rgba(255, 255, 255, 0.228);
-  backdrop-filter: blur(2em);
+   background: rgb(255, 255, 255, 50%);
+  backdrop-filter: blur(8em);
   padding: 1em;
   border-radius: 5em;
 
 
     box-shadow:
-    0 0 10px  #4ed4f9,
-    0 0 30px #ffdaef;
+    0 0 10px  #ffffffc0,
+    0 0 30px #ffdbf0;
 
 }
 
