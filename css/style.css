@@ -274,17 +274,14 @@ nav li {
 
 
 
-  color:rgb(255, 255, 255, 50%);
+  color:rgb(255, 255, 255, 60%);
 
   transition: all 0.3s ease;
-/*
-  text-shadow:
-    0 0 5px #ff54b5,
-    0 0 10px #ff54b5;*/
 
-     text-shadow:
-    0 0 10px #ffc0e4,
-    0 0 25px #ffa5d8;
+ text-shadow:
+  0 0 0.6em #ffc0e4,
+  0 0 1.4em #ffa5d8;
+    
 }
 
 .nav-link:hover {
@@ -297,9 +294,9 @@ nav li {
   --y: 50%;
 
   text-shadow:
-    0 0 10px rgba(131, 228, 255, 0.99),
-    0 0 50px rgb(81, 0, 255),
-    0 0 90px rgb(255, 142, 231);
+  0 0 1.3em rgba(131, 228, 255, 0.99),
+  0 0 2.7em rgb(81, 0, 255),
+  0 0 3em rgb(255, 142, 231);
 }
 
 /*---------------------------------------*/
@@ -348,24 +345,19 @@ h1 {
 
 }
 
-h2 {
 
+
+h2 {
   font-size: 1.6em;
   text-align: center;
   font-family: "Bitcount Prop Single Ink", system-ui;
-  font-optical-sizing: auto;
   font-weight: 200;
-  font-style: normal;
 
-  background: #ff70c8;
-  padding: 2.5em;
-  border-radius: 1em;
-}
-
-/*cajita */
-h2 {
   width: fit-content;
-  margin: 0 auto;
+  margin: 3em auto; /* 🔥 ESTO separa de arriba y abajo */
+
+margin-top: 5.6em;
+margin-bottom: 1em;
 
   background: rgba(255, 112, 200, 0.2);
   backdrop-filter: blur(10px);
@@ -379,7 +371,6 @@ h2 {
     0 0 10px #ff70c8,
     0 0 30px #ff70c8;
 }
-
 
 h3 {
 
