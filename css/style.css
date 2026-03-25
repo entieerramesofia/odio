@@ -142,7 +142,7 @@ body {
 
 .title {
 
-  font-size: 5em;
+  font-size: 6.5em;
   font-weight: normal;
   color: #57ff4b;
   text-align: center;
@@ -162,8 +162,9 @@ body {
 
 }
   .title:hover {
-        font-size: 5.2rem; 
+        font-size: 5.6rem; 
         text-align: center;
+font-weight: 520;
 
         text-shadow: 0 0 15px rgb(255, 255, 237),
                      0 0 30px rgb(0, 4, 255); /* brillo */
@@ -172,7 +173,6 @@ body {
 
 
 .title {
-  font-size: 5em;
   color: #57ff4b;
   text-align: center;
   font-family: "Bitcount Prop Single Ink", system-ui;
@@ -195,13 +195,11 @@ body {
 }
 
 .title::before {
-  color: #ff00e0;
   z-index: -1;
   animation: glitchTop 1s infinite;
 }
 
 .title::after {
-  color: #00f7ff;
   z-index: -2;
   animation: glitchBottom 1s infinite;
 }
@@ -399,10 +397,12 @@ h5 {
   margin: 0.7em;
   padding-top: 2em;
   padding-left: 0.3em;
-  display: flex;
+  padding-bottom: 2.7em; 
+  display: row;
   justify-content: right;
   /* CENTRA */
   gap: 3.5em;
+  
 
 
 }
@@ -442,19 +442,19 @@ background: radial-gradient(circle, #ffacdf
 
 .contacto p {
   background: #ff70c8;
-  padding: 0.5em 1em;
-  border-radius: 1em;
+  padding: 0.3em 0.3em;
+  border-radius: 3em;
 
   width: fit-content;
   margin: 0.5em auto;
 
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .contacto p:hover {
   transform: scale(1.1);
 
-  background: #fbff00;
+  background: #fbff0000;
 
   box-shadow:
     0 0 10px #fbff00,
@@ -464,9 +464,9 @@ background: radial-gradient(circle, #ffacdf
 .contacto a {
   display: inline-block;
 
-  background: #ff70c8;
+  background: #ff70c800;
   padding: 0.5em 1em;
-  border-radius: 1em;
+  border-radius: 3em;
 
   color: white;
 
@@ -475,7 +475,7 @@ background: radial-gradient(circle, #ffacdf
 
 .contacto a:hover {
   transform: scale(1.1);
-  background: #fbff00;
+  background: #fbff0000;
 }
 
 
@@ -522,7 +522,7 @@ pointer-events: none;
   white-space: nowrap;
   padding: 0;
 
-  color: #ff70c8;
+  color: #fca2ea;
 
   text-shadow:
     0 0 5px #ff54b5,
