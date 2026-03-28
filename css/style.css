@@ -371,14 +371,21 @@ margin-bottom: 1em;
 
 */
 h2 {
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-align: center;
-  font-family: "Bitcount Prop Single Ink", system-ui;
-  font-weight: 200;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-weight: 200; 
+  font-optical-sizing: auto;
+  font-style: light;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 1;
 
   width: fit-content (-3em);
 
-
+ letter-spacing: 0.05em;
   margin:5em;
 
   /*
@@ -402,12 +409,14 @@ h2 {
     0 0 5px #ff70c84a,
     0 0 10px #ff70c83a;
 
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 h2:hover {
   opacity: 1;
   transform: scale(1.04);
+    letter-spacing: 0.25em;
+
 
   background: rgba(255, 112, 200, 0.2);
   backdrop-filter: blur(10px);
@@ -417,6 +426,7 @@ h2:hover {
   box-shadow: 
     0 0 10px #ff70c8,
     0 0 30px #ff70c8;
+
 }
 
 
@@ -606,5 +616,8 @@ pointer-events: none;
   /* detrás de todo */
 }
 
-/*---------------------------------------*/
+/*---------------------------------------
 
+#contacto {
+  scroll-margin-top: 120px;
+}*/
