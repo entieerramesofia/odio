@@ -98,6 +98,24 @@
   font-style: normal;
 }
 
+
+.bitcount-single-ink {
+  font-family: "Bitcount Single Ink";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
 /*---------------------------------------*/
 
 * {
@@ -148,7 +166,7 @@ body {
   font-weight: normal;
   color: #57ff4b;
   text-align: center;
-  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-family: "Bitcount Single Ink";
   padding: 0;
   transition: all 0.9s ease-in-out;
   /* animacion suave AYUDA */
@@ -398,11 +416,11 @@ h2 {
 
   /* “apagado” */
   background: rgba(255, 112, 200, 0.08);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.6em);
 
   color: rgba(255, 255, 255, 0.5);
 
-  opacity: 0.85;
+  opacity: 0.75;
   transform: scale(0.95);
 
   box-shadow: 
@@ -415,11 +433,11 @@ h2 {
 h2:hover {
   opacity: 1;
   transform: scale(1.04);
-    letter-spacing: 0.25em;
+    letter-spacing: 0.23em;
 
 
   background: rgba(255, 112, 200, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
 
   color: white;
 
@@ -473,7 +491,7 @@ h5 {
 
 h6 {
 
-  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-family: "Bitcount Grid Single", system-ui;
   margin: 1.5em;
   font-size: 1.45em;
   text-align: right;
@@ -487,7 +505,7 @@ background: radial-gradient(circle, #ffacdf
 */
 
    background: rgb(255, 255, 255, 50%);
-  backdrop-filter: blur(7em);
+  backdrop-filter: blur(1em);
   padding: 1em;
   border-radius: 5em;
 
