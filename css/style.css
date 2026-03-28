@@ -121,6 +121,8 @@ html {
 
   font-size: 18px;
   text-decoration: none;
+  scroll-behavior: smooth;
+
 
 }
 
@@ -148,7 +150,7 @@ body {
   text-align: center;
   font-family: "Bitcount Prop Single Ink", system-ui;
   padding: 0;
-  transition: all 0.9s ease;
+  transition: all 0.9s ease-in-out;
   /* animacion suave AYUDA */
 
 
@@ -167,10 +169,8 @@ body {
         font-weight: 520px;
 
         text-shadow: 0 0 15px rgb(255, 255, 237),
-                     0 0 30px rgb(0, 4, 255); /* brillo */
-    }
-
-
+                     0 0 30px rgb(255, 0, 0); /* brillo */
+}
 
 .title {
   color: #57ff4b;
@@ -235,7 +235,7 @@ header {
   /* centra horizontalmente */
   text-align: center;
   font-family: "Libre Barcode 39 Text", system-ui;
-  font-size: 1.9em;
+  font-size: 2em;
   /*color: #ff54b5;*/
   padding: 0.8em;
   font-weight: 4em;
@@ -268,8 +268,6 @@ nav li {
 
 .nav-link {
   display: inline-block;
-
-
 
   color:rgb(255, 255, 255, 60%);
 
@@ -343,7 +341,7 @@ h1 {
 }
 
 
-
+/*
 h2 {
   font-size: 1.6em;
   text-align: center;
@@ -351,7 +349,7 @@ h2 {
   font-weight: 200;
 
   width: fit-content;
-  margin: 3em auto; /* 🔥 ESTO separa de arriba y abajo */
+  margin: 3em auto; /* 🔥 ESTO separa de arriba y abajo 
 
 margin-top: 5.6em;
 margin-bottom: 1em;
@@ -371,6 +369,55 @@ margin-bottom: 1em;
 
 }
 
+*/
+h2 {
+  font-size: 1.6em;
+  text-align: center;
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-weight: 200;
+
+  width: fit-content (-3em);
+
+
+  margin:5em;
+
+  /*
+  margin: 3em auto;*/
+  margin-top: 5.3em;
+  margin-bottom: 1em;
+
+  border-radius: 3em;
+  padding: 0.3em 0.8em;
+
+  /* “apagado” */
+  background: rgba(255, 112, 200, 0.08);
+  backdrop-filter: blur(4px);
+
+  color: rgba(255, 255, 255, 0.5);
+
+  opacity: 0.85;
+  transform: scale(0.95);
+
+  box-shadow: 
+    0 0 5px #ff70c84a,
+    0 0 10px #ff70c83a;
+
+  transition: all 0.5s ease-in-out;
+}
+
+h2:hover {
+  opacity: 1;
+  transform: scale(1.04);
+
+  background: rgba(255, 112, 200, 0.2);
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  box-shadow: 
+    0 0 10px #ff70c8,
+    0 0 30px #ff70c8;
+}
 
 
 h3 {
@@ -439,7 +486,7 @@ background: radial-gradient(circle, #ffacdf
     0 0 1em #ffdbf0;
 
 }
-
+/*--------------------*/
 
 
 /*-------------- CONTACTOO  -------------------------*/
