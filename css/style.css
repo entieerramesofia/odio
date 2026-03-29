@@ -146,15 +146,12 @@ html {
 
 body {
 
-  background-color: var(--background-color);
+  background-color: transparent;
   color: var(--text-color);
   font-family: var(--font-family);
   font-size: 1.0em;
 
   position: relative;
-  z-index: 1;
-
-
 }
 
 /*---------------------------------------*/
@@ -314,6 +311,8 @@ header {
   font-family: "Libre Barcode 39 Text", system-ui;
   font-size: 2em;
   padding: 1em;
+  position: relative;
+  z-index: 1;
 }
 
 header {
@@ -412,6 +411,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 /*---------------------------------------*/
@@ -727,8 +728,8 @@ background: radial-gradient(circle, #ffacdf
   object-fit: cover;
   /* que cubra toda la pantalla */
 
-  z-index: -1;
-  /* detrás de todo */
+  z-index: 0;
+  /* al fondo, pero visible */
 }
 
 /*---------------------------------------
