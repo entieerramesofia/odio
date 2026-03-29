@@ -494,7 +494,6 @@ h6 {
   font-family: "Bitcount Grid Single", system-ui;
   margin: 1.5em;
   font-size: 1.45em;
-  text-align: right;
   color: #ff0000;
   font-weight: 200;
 
@@ -513,12 +512,64 @@ background: radial-gradient(circle, #ffacdf
     0 0 0.5em  #ffffff7e,
     0 0 1em #ffdbf0;
 
+      background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(0.1em);
+
+
+
+    
+
 }
 /*--------------------*/
+.contacto p {
 
+  border-radius: 5em;
+  width: fit-content;
+  margin: 1.5em auto;
+
+}
+
+.contacto p:hover {
+
+
+  background: #fbff0000;
+  transition: all 0.5s ease-in-out;
+
+ 
+}
 
 /*-------------- CONTACTOO  -------------------------*/
+.contacto a {
 
+  display: inline-block;
+  background: #ff70c800;
+  padding: 0.5em 1em;
+  border-radius: 3em;
+
+  transition: all 0.4s ease;
+}
+
+.contacto a:hover {
+  transform: scale(1.1);
+  background: #fbff0000;
+
+  background: 0; 
+
+  padding: 0.5em 1em;
+  border-radius: 5em;
+
+
+
+    text-shadow:
+    0 0 0.5em rgba(255, 255, 255),
+    0 0 1em #11ff00,
+    0 0 2em #11ff00,
+    0 0 3em #11ff00,
+    0 0 4em #11ff00,
+    0 0 5em #11ff00;
+
+    
+}
 
 
 
