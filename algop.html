@@ -66,13 +66,20 @@
 
 </head>
 
-<script src="script.js"></script>
-
 <body class="index">
 
-    <video autoplay muted loop playsinline class="video-bg">
-<source src="./img/patos.mp4" type="video/mp4">  
-</video>
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        webkit-playsinline="true"
+        preload="auto"
+        poster="./img/cuadro.png"
+        class="video-bg"
+        id="videoBg">
+        <source src="./img/patos.mp4" type="video/mp4">
+    </video>
 
 
     <header>
@@ -169,6 +176,8 @@
 
 
 </body>
+
+<script src="./js/script.js"></script>
 
 </html>
 
