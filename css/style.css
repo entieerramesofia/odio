@@ -781,9 +781,11 @@ main {
 
 img {
   max-width: 100%;
-  height: auto;
-  position: relative;
+  height: 5em;
+  position: center;
   z-index: 1;
+
+
 }
 
 main, header {
