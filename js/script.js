@@ -5,7 +5,12 @@ btn.addEventListener("click", () => {
   box.classList.toggle("active");
 });
 
-// opcional: cerrar al hacer click en el fondo
 box.addEventListener("click", () => {
   box.classList.remove("active");
+});
+
+box.addEventListener("click", (e) => {
+  if (e.target === box) {
+    box.classList.remove("active");
+  }
 });
